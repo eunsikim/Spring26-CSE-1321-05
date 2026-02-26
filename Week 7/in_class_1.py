@@ -6,7 +6,7 @@
 # INPUT: 1 numeric parameter
 # PROCESS: Check if the parameter is even
 # OUTPUT: True if the parameter is even, False if it is odd
-def isEven(num):
+def isEven(num1):
     if num % 2 == 0: # EVEN
         # `return` will return the value of `True`
         # but also STOP/BREAK the function
