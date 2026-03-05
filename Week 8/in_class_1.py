@@ -10,5 +10,22 @@ import random
 # first 5 letters of the lastname, followed by a number.
 
 # CREATE YOUR FUNCTION BELOW THIS COMMENT
-def generate_netID():
-    pass
+def generate_netID(firstname, lastname):
+    netID = "" # String Builder
+
+    netID += firstname[0] #First letter of the firstname
+
+    counter = 0
+
+    for char in lastname:
+        if counter < 5:
+            netID += char
+            counter += 1
+        elif counter == 5:
+            break
+
+    random_num = random.randint(0, 100)
+
+    return f"{netID}{random_num}"
+
+print(generate_netID("Jose", "Martinez")) #JMarti
