@@ -5,7 +5,18 @@ the class will have these attributes:
 - labs (list)
 - exams (list)
 
-All of these attributes should be passed as parameters when constructing.
+All of these attributes should be initialized with
+values passed as parameters when constructing.
+
+
+
+
+
+
+
+
+
+
 
 2. Create a function called `get_final_grade()`. This function does 
 not take any parameters and returns the final grade of the student:
