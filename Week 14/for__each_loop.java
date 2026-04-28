@@ -1,4 +1,4 @@
-public class for_loop {
+public class for__each_loop {
     public static void main(String[] args) {
         // Just assume the line below is a list
         int[] my_numbers = {10, 11, 23};
